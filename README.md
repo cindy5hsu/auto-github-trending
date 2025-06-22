@@ -1,5 +1,7 @@
 # GitHub Trending 資料擷取項目
 
+影片鏈接 ： https://youtu.be/EnpKTWXVZuQ
+ 
 ## 專案簡介
 這是一個用於抓取 GitHub Trending 頁面資料的全端應用程式專案。專案可以自動取得並儲存 GitHub 每日和每週熱門專案的數據，並透過現代化的 Web 介面展示這些資訊。
 
