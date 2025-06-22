@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8081
+
+github:
+  trending:
+    base-url: https://github.com/trending
+    cron:
+      daily: "0 0 */6 * * *"  # 每6小时执行一次
+      weekly: "0 0 0 * * MON"  # 每周一执行
